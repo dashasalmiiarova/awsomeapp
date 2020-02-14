@@ -1,0 +1,295 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="991" height="1038" viewBox="0 0 991 1038">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #20202c;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-10, .cls-11, .cls-15, .cls-3, .cls-4, .cls-7, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-7 {
+        font-size: 34px;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        font-family: Muli-Bold, Muli;
+      }
+
+      .cls-4, .cls-6 {
+        font-size: 22px;
+      }
+
+      .cls-10, .cls-11, .cls-15, .cls-16, .cls-19, .cls-4, .cls-6, .cls-9 {
+        font-family: Muli-Regular, Muli;
+      }
+
+      .cls-5 {
+        fill: #090d17;
+        font-family: Helvetica;
+        opacity: 0.5;
+      }
+
+      .cls-19, .cls-5 {
+        font-size: 13px;
+      }
+
+      .cls-6 {
+        fill: #8563fc;
+      }
+
+      .cls-7 {
+        font-family: Helvetica-Bold, Helvetica;
+      }
+
+      .cls-8 {
+        fill: #39394d;
+        opacity: 0.23;
+      }
+
+      .cls-9 {
+        font-size: 48px;
+      }
+
+      .cls-10 {
+        font-size: 17px;
+      }
+
+      .cls-11 {
+        font-size: 24px;
+      }
+
+      .cls-12, .cls-13, .cls-21 {
+        fill: none;
+      }
+
+      .cls-12 {
+        stroke: #262634;
+        stroke-width: 3px;
+      }
+
+      .cls-13 {
+        stroke: #00ec98;
+        stroke-linecap: round;
+        stroke-width: 10px;
+      }
+
+      .cls-14 {
+        fill: #262634;
+      }
+
+      .cls-15 {
+        font-size: 16px;
+      }
+
+      .cls-16, .cls-18, .cls-19 {
+        fill: #66667e;
+      }
+
+      .cls-16 {
+        font-size: 12px;
+      }
+
+      .cls-17 {
+        fill: #00ec98;
+      }
+
+      .cls-20 {
+        stroke: none;
+      }
+
+      .cls-22 {
+        filter: url(#Ellipse_21-2);
+      }
+
+      .cls-23 {
+        filter: url(#Rectangle_2227-2);
+      }
+
+      .cls-24 {
+        filter: url(#Ellipse_21);
+      }
+
+      .cls-25 {
+        filter: url(#Rectangle_2227);
+      }
+
+      .cls-26 {
+        filter: url(#Rectangle_2226);
+      }
+
+      .cls-27 {
+        filter: url(#Path_27);
+      }
+
+      .cls-28 {
+        filter: url(#Rectangle_2224);
+      }
+
+      .cls-29 {
+        filter: url(#Rectangle_2219);
+      }
+    </style>
+    <filter id="Rectangle_2219" x="129" y="149" width="671" height="889" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-opacity="0.541"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.635" y1="0.901" x2="-0.064" y2="-0.116" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bd11fa"/>
+      <stop offset="1" stop-color="#46c2ff"/>
+    </linearGradient>
+    <filter id="Rectangle_2224" x="489" y="104" width="502" height="497" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-2"/>
+      <feFlood flood-opacity="0.541"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_27" x="703.5" y="270.501" width="160.804" height="160.803" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-3"/>
+      <feFlood flood-color="#2eff74" flood-opacity="0.612"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2226" x="0" y="206" width="569" height="393" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-4"/>
+      <feFlood flood-opacity="0.541"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2227" x="173" y="560" width="345" height="365" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-5"/>
+      <feFlood flood-opacity="0.541"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_21" x="402" y="628" width="40" height="40" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-6"/>
+      <feFlood flood-color="#2eff74" flood-opacity="0.608"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2227-2" x="426" y="619" width="345" height="365" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-7"/>
+      <feFlood flood-opacity="0.541"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_21-2" x="655" y="687" width="40" height="40" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-8"/>
+      <feFlood flood-color="#2eff74" flood-opacity="0.608"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2449" data-name="Group 2449" transform="translate(-46 -3625)">
+    <g class="cls-29" transform="matrix(1, 0, 0, 1, 46, 3625)">
+      <rect id="Rectangle_2219-2" data-name="Rectangle 2219" class="cls-1" width="551" height="769" rx="7" transform="translate(189 209)"/>
+    </g>
+    <rect id="Rectangle_212" data-name="Rectangle 212" class="cls-2" width="551" height="352" transform="translate(235 3625)"/>
+    <text id="Good_evening_" data-name="Good evening!" class="cls-3" transform="translate(279 3729)"><tspan x="0" y="0">Good evening!</tspan></text>
+    <text id="Bojan_Sandic" data-name="Bojan Sandic" class="cls-4" transform="translate(279 3774)"><tspan x="0" y="0">Bojan Sandic</tspan></text>
+    <text id="PM" class="cls-5" transform="translate(652 3761)"><tspan x="0" y="0">PM</tspan></text>
+    <text id="Running_Appliances" data-name="Running Appliances" class="cls-4" transform="translate(279 4207)"><tspan x="0" y="0">Running Appliances</tspan></text>
+    <text id="See_All" data-name="See All" class="cls-6" transform="translate(687 4207)"><tspan x="0" y="0">See All</tspan></text>
+    <text id="_06:30" data-name="06:30" class="cls-7" transform="translate(650 3738)"><tspan x="0" y="0">06:30</tspan></text>
+    <g class="cls-28" transform="matrix(1, 0, 0, 1, 46, 3625)">
+      <rect id="Rectangle_2224-2" data-name="Rectangle 2224" class="cls-1" width="382" height="377" rx="7" transform="translate(549 164)"/>
+    </g>
+    <rect id="Rectangle_2225" data-name="Rectangle 2225" class="cls-8" width="382" height="63" transform="translate(595 3834)"/>
+    <text id="_26" data-name="26" class="cls-9" transform="translate(756.956 4036.503)"><tspan x="0" y="0">26</tspan></text>
+    <text id="Units" class="cls-10" transform="translate(765.603 4071.184)"><tspan x="0" y="0">Units</tspan></text>
+    <text id="Today_Consumption" data-name="Today Consumption" class="cls-11" transform="translate(676 3874)"><tspan x="0" y="0">Today Consumption</tspan></text>
+    <g id="Ellipse_1140" data-name="Ellipse 1140" class="cls-12" transform="translate(697 3929)">
+      <circle class="cls-20" cx="89.5" cy="89.5" r="89.5"/>
+      <circle class="cls-21" cx="89.5" cy="89.5" r="88"/>
+    </g>
+    <g class="cls-27" transform="matrix(1, 0, 0, 1, 46, 3625)">
+      <path id="Path_27-2" data-name="Path 27" class="cls-13" d="M40.484,0a90.8,90.8,0,0,1,90.8,90.8" transform="translate(698.02 305.5)"/>
+    </g>
+    <g class="cls-26" transform="matrix(1, 0, 0, 1, 46, 3625)">
+      <rect id="Rectangle_2226-2" data-name="Rectangle 2226" class="cls-1" width="449" height="273" rx="7" transform="translate(60 266)"/>
+    </g>
+    <path id="Intersection_1" data-name="Intersection 1" class="cls-14" d="M95.7,240.389A19.861,19.861,0,0,1,75.87,220.558V192.836c.3-7.592-4.972-19.561-14.591-33.557a57.841,57.841,0,0,1-8.754-11.673c-.3-.594-.594-.864-.864-1.459a68.554,68.554,0,0,1-9.349-34.422,69.608,69.608,0,0,1,69.44-69.439c.352,0,.71,0,1.061,0V52.778q-.543-.01-1.089-.01a58.659,58.659,0,0,0-58.658,58.658A59.414,59.414,0,0,0,61.224,141.2v.3a70.647,70.647,0,0,0,7.89,10.51l.594.595q14.427,20.588,16.644,35.016h26.46v10.753H86.65v9.916h26.162V219.1H86.65v2.053A9.142,9.142,0,0,0,95.7,229.31h17.111v11.079ZM5.242,117.236a5.242,5.242,0,1,1,0-10.483H17.779a5.242,5.242,0,0,1,0,10.483ZM27.721,69.71,16.914,63.279a5.359,5.359,0,1,1,5.242-9.349L32.963,60.36a5.356,5.356,0,0,1,2.054,7.322A5.262,5.262,0,0,1,30.343,70.3,4.261,4.261,0,0,1,27.721,69.71ZM60.387,32.936,53.957,22.1a5.359,5.359,0,1,1,9.349-5.242l6.431,10.807a5.309,5.309,0,0,1-2.054,7.3,8.368,8.368,0,0,1-2.621.594A5.234,5.234,0,0,1,60.387,32.936Zm46.689-15.158V5.242A5.212,5.212,0,0,1,112.318,0q.25,0,.494.023V23q-.244.022-.494.023C109.1,23.02,106.779,20.669,107.077,17.779Z" transform="translate(442.55 3909.796)"/>
+    <text id="Evening_Mode_ON" data-name="Evening Mode ON" class="cls-11" transform="translate(133 3937)"><tspan x="0" y="0">Evening Mode ON</tspan></text>
+    <text id="_6" data-name="6" class="cls-3" transform="translate(138 4006)"><tspan x="0" y="0">6</tspan></text>
+    <g id="Group_11" data-name="Group 11" transform="translate(133.453 4027.224)">
+      <text id="Garden_lights" data-name="Garden lights" class="cls-15" transform="translate(-0.453 16.776)"><tspan x="0" y="0">Garden lights</tspan></text>
+    </g>
+    <text id="_03:30:33" data-name="03:30:33" class="cls-16" transform="translate(133 4061)"><tspan x="0" y="0">03:30:33</tspan></text>
+    <text id="_4" data-name="4" class="cls-3" transform="translate(285 4006)"><tspan x="0" y="0">4</tspan></text>
+    <text id="_03:30:33-2" data-name="03:30:33" class="cls-16" transform="translate(285 4061)"><tspan x="0" y="0">03:30:33</tspan></text>
+    <g id="Group_112" data-name="Group 112" transform="translate(285.244 4028.224)">
+      <text id="Cordial_light" data-name="Cordial light" class="cls-15" transform="translate(-0.244 16.776)"><tspan x="0" y="0">Cordial light</tspan></text>
+    </g>
+    <text id="_2" data-name="2" class="cls-3" transform="translate(424 4006)"><tspan x="0" y="0">2</tspan></text>
+    <text id="_02:30:33" data-name="02:30:33" class="cls-16" transform="translate(424 4061)"><tspan x="0" y="0">02:30:33</tspan></text>
+    <g id="Group_113" data-name="Group 113" transform="translate(423.542 4027.224)">
+      <text id="Hall_Lights" data-name="Hall Lights" class="cls-10" transform="translate(0.458 17.776)"><tspan x="0" y="0">Hall Lights</tspan></text>
+    </g>
+    <text id="All_lights_will_switch_of_automatically_as_per_the_timer_which_is_there_in_the_setting." data-name="All lights will switch of automatically as per the timer which is there in the setting." class="cls-16" transform="translate(133 4093)"><tspan x="0" y="12">All lights will switch of automatically as per the timer which is there </tspan><tspan x="0" y="27">in the setting.</tspan></text>
+    <g id="Group_2375" data-name="Group 2375" transform="translate(238 331)">
+      <g class="cls-25" transform="matrix(1, 0, 0, 1, -192, 3294)">
+        <rect id="Rectangle_2227-3" data-name="Rectangle 2227" class="cls-1" width="225" height="245" rx="7" transform="translate(233 620)"/>
+      </g>
+      <g class="cls-24" transform="matrix(1, 0, 0, 1, -192, 3294)">
+        <circle id="Ellipse_21-3" data-name="Ellipse 21" class="cls-17" cx="5" cy="5" r="5" transform="translate(417 643)"/>
+      </g>
+      <g id="air-conditioner_1_" data-name="air-conditioner (1)" transform="translate(72.08 3942.054)">
+        <path id="Path_48" data-name="Path 48" class="cls-17" d="M67.738.5H6.158A6.165,6.165,0,0,0,0,6.658V26.364a6.165,6.165,0,0,0,6.158,6.158h61.58A6.165,6.165,0,0,0,73.9,26.364V6.658A6.165,6.165,0,0,0,67.738.5ZM62.812,30.059H11.084V26.364a1.232,1.232,0,0,1,1.232-1.232H61.58a1.232,1.232,0,0,1,1.232,1.232Zm8.621-3.695a3.7,3.7,0,0,1-3.695,3.695H65.275V26.364a3.7,3.7,0,0,0-3.695-3.695H12.316a3.7,3.7,0,0,0-3.695,3.695v3.695H6.158a3.7,3.7,0,0,1-3.695-3.695V6.658A3.7,3.7,0,0,1,6.158,2.963h61.58a3.7,3.7,0,0,1,3.695,3.695Zm0,0" transform="translate(0 -0.5)"/>
+        <path id="Path_59" data-name="Path 59" class="cls-17" d="M336,48.5h12.316v2.463H336Zm0,0" transform="translate(-284.272 -41.11)"/>
+        <path id="Path_60" data-name="Path 60" class="cls-17" d="M304,48.5h2.463v2.463H304Zm0,0" transform="translate(-257.199 -41.11)"/>
+      </g>
+      <g id="power" transform="translate(73.993 4095.922)">
+        <g id="Group_4" data-name="Group 4" transform="translate(0)">
+          <g id="Group_3" data-name="Group 3">
+            <path id="Path_19" data-name="Path 19" class="cls-18" d="M47.242,72.045s-1.37-.616-1.37.824a3.268,3.268,0,0,0,1.374,2.4,8.764,8.764,0,0,1-4.561,16.1,8.764,8.764,0,0,1-4.561-16.1,3.268,3.268,0,0,0,1.374-2.4c0-1.44-1.37-.824-1.37-.824a11.6,11.6,0,0,0,4.556,22.167,11.6,11.6,0,0,0,4.556-22.167Z" transform="translate(-31.31 -68.408)"/>
+            <path id="Path_20" data-name="Path 20" class="cls-18" d="M233.639,0a1.519,1.519,0,0,0-1.673,1.3V12.722a1.519,1.519,0,0,0,1.673,1.3,1.343,1.343,0,0,0,1.514-1.3V1.3A1.343,1.343,0,0,0,233.639,0Z" transform="translate(-222.183)"/>
+          </g>
+        </g>
+      </g>
+      <rect id="Rectangle_2228" data-name="Rectangle 2228" class="cls-8" width="225" height="75" transform="translate(41 4002)"/>
+      <text id="Air_Conditioner" data-name="Air Conditioner" class="cls-10" transform="translate(73.742 4035.098)"><tspan x="0" y="0">Air Conditioner</tspan></text>
+      <text id="On_for_last_3_Hrs" data-name="On for last 3 Hrs" class="cls-19" transform="translate(73.742 4058.61)"><tspan x="0" y="0">On for last 3 Hrs</tspan></text>
+    </g>
+    <g id="Group_2377" data-name="Group 2377" transform="translate(-9 390)">
+      <g id="Group_2376" data-name="Group 2376" transform="translate(500)">
+        <g class="cls-23" transform="matrix(1, 0, 0, 1, -445, 3235)">
+          <rect id="Rectangle_2227-4" data-name="Rectangle 2227" class="cls-1" width="225" height="245" rx="7" transform="translate(486 679)"/>
+        </g>
+        <g class="cls-22" transform="matrix(1, 0, 0, 1, -445, 3235)">
+          <circle id="Ellipse_21-4" data-name="Ellipse 21" class="cls-17" cx="5" cy="5" r="5" transform="translate(670 702)"/>
+        </g>
+        <g id="power-2" data-name="power" transform="translate(73.993 4095.922)">
+          <g id="Group_4-2" data-name="Group 4" transform="translate(0)">
+            <g id="Group_3-2" data-name="Group 3">
+              <path id="Path_19-2" data-name="Path 19" class="cls-18" d="M47.242,72.045s-1.37-.616-1.37.824a3.268,3.268,0,0,0,1.374,2.4,8.764,8.764,0,0,1-4.561,16.1,8.764,8.764,0,0,1-4.561-16.1,3.268,3.268,0,0,0,1.374-2.4c0-1.44-1.37-.824-1.37-.824a11.6,11.6,0,0,0,4.556,22.167,11.6,11.6,0,0,0,4.556-22.167Z" transform="translate(-31.31 -68.408)"/>
+              <path id="Path_20-2" data-name="Path 20" class="cls-18" d="M233.639,0a1.519,1.519,0,0,0-1.673,1.3V12.722a1.519,1.519,0,0,0,1.673,1.3,1.343,1.343,0,0,0,1.514-1.3V1.3A1.343,1.343,0,0,0,233.639,0Z" transform="translate(-222.183)"/>
+            </g>
+          </g>
+        </g>
+        <rect id="Rectangle_2228-2" data-name="Rectangle 2228" class="cls-8" width="225" height="75" transform="translate(41 4002)"/>
+        <text id="Smart_Light" data-name="Smart Light" class="cls-10" transform="translate(73.742 4035.098)"><tspan x="0" y="0">Smart Light</tspan></text>
+        <text id="On_for_last_5_Hrs" data-name="On for last 5 Hrs" class="cls-19" transform="translate(73.742 4058.61)"><tspan x="0" y="0">On for last 5 Hrs</tspan></text>
+      </g>
+      <g id="light-bulb-on" transform="translate(570.323 3927.162)">
+        <path id="Path_47" data-name="Path 47" class="cls-17" d="M56.129,6.2l1.441-2.422a1.2,1.2,0,0,1,2.095,1.174L58.223,7.374a1.172,1.172,0,0,1-1.047.587,1.873,1.873,0,0,1-.587-.133A1.175,1.175,0,0,1,56.129,6.2ZM34.946,7.38a1.172,1.172,0,0,0,1.047.587,1.874,1.874,0,0,0,.587-.133,1.189,1.189,0,0,0,.46-1.635L35.6,3.778a1.2,1.2,0,0,0-2.095,1.174ZM46.582,5.158a1.168,1.168,0,0,0,1.174-1.174V1.174a1.174,1.174,0,1,0-2.349,0V3.983A1.1,1.1,0,0,0,46.582,5.158ZM25.4,23.919H22.59a1.174,1.174,0,1,0,0,2.349H25.4a1.174,1.174,0,0,0,0-2.349Zm45.18,0H67.77a1.174,1.174,0,1,0,0,2.349h2.809a1.174,1.174,0,0,0,0-2.349ZM68.418,12.544a1.189,1.189,0,0,0-1.635-.46l-2.422,1.441a1.189,1.189,0,0,0-.46,1.635,1.172,1.172,0,0,0,1.047.587,1.873,1.873,0,0,0,.587-.133l2.422-1.441A1.176,1.176,0,0,0,68.418,12.544Zm-6.4,12.422a15.752,15.752,0,0,1-2.028,7.652,1.142,1.142,0,0,1-.26.46l-.133.194a14.014,14.014,0,0,1-1.7,2.222c-2.288,3.2-3.463,5.951-3.4,7.713v.067c0,.133.067.327.067.521v5.624a4.45,4.45,0,0,1-4.443,4.443H42.859a4.45,4.45,0,0,1-4.443-4.443V43.206c.067-1.7-1.114-4.383-3.269-7.519a12.954,12.954,0,0,1-1.961-2.615c-.067-.133-.133-.194-.194-.327A15.36,15.36,0,0,1,30.9,25.033a15.558,15.558,0,0,1,31.117-.067ZM52.139,44.447H40.831v2.222H52.139V44.447Zm0,5.1v-.46H40.831v.46a2.048,2.048,0,0,0,2.028,1.828h7.259A2.043,2.043,0,0,0,52.139,49.551Zm7.452-24.585a13.143,13.143,0,1,0-26.286,0,13.312,13.312,0,0,0,1.828,6.671h0V31.7A15.843,15.843,0,0,0,36.9,34.059l.133.133q3.233,4.613,3.729,7.846H52.206c.394-2.682,2.222-5.751,3.856-8.04,0-.067.067-.067.133-.133a8.894,8.894,0,0,0,1.5-2.028c0-.067.067-.067.067-.133s.067-.067.067-.133A12.831,12.831,0,0,0,59.591,24.966ZM28.8,13.524,26.38,12.083a1.2,1.2,0,0,0-1.174,2.095l2.422,1.441a.954.954,0,0,0,.587.133,1.179,1.179,0,0,0,1.047-.587A1.2,1.2,0,0,0,28.8,13.524Z" transform="translate(-21.416 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>

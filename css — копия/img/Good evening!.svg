@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="231" height="43" viewBox="0 0 231 43">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 34px;
+        font-family: Muli-Bold, Muli;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="Good_evening_" data-name="Good evening!" class="cls-1" transform="translate(0 34)"><tspan x="0" y="0">Good evening!</tspan></text>
+</svg>

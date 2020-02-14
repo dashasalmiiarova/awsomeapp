@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="13" viewBox="0 0 20 13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #090d17;
+        font-size: 13px;
+        font-family: Helvetica;
+        opacity: 0.5;
+      }
+    </style>
+  </defs>
+  <text id="PM" class="cls-1" transform="translate(0 10)"><tspan x="0" y="0">PM</tspan></text>
+</svg>

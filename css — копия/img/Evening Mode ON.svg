@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="199" height="30" viewBox="0 0 199 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 24px;
+        font-family: Muli-Regular, Muli;
+      }
+    </style>
+  </defs>
+  <text id="Evening_Mode_ON" data-name="Evening Mode ON" class="cls-1" transform="translate(0 24)"><tspan x="0" y="0">Evening Mode ON</tspan></text>
+</svg>
