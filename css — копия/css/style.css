@@ -21,6 +21,7 @@ header{
 .content{
     padding-top: 130px;
 }
+/* sticky-menu */
 .sticky{
     background-color:#21212E;
     width: 100%;
@@ -114,6 +115,10 @@ header{
     font-size: 16px;
     line-height: 30px;
     margin-bottom: 85px;
+    animation-delay: 0.5s;
+}
+.slogan-buttons{
+    animation-delay: 1s;
 }
 .gradient-button{
     padding: 17px 37px 17px 37px;
@@ -133,7 +138,6 @@ header{
     /* background: transparent linear-gradient(294deg, #46C2FF 0%, #BD11FA 100%) 0% 0% no-repeat padding-box; */
 }
 .clients-logo-img{
-
     padding: 22px 42px 22px 42px;
     background-color: #20202C;
     border-radius: 7px;
@@ -166,63 +170,18 @@ header{
     display: flex;
     justify-content: space-between;
 }
-/* .img1 {
-    position: absolute;
-    top: 936px;
-    left: 235px;
-}
-.img2 {
-    position: absolute;
-    top: 945px;
-    left: 418px;
-}
-.img3 {
-    position: absolute;
-    top: 1046px;
-    left: 75px;
-}
-.img4 {
-    position: absolute;
-    top: 1046px;
-    left: 328px;
-}
-.img5 {
-    position: absolute;
-    top: 1059px;
-    left: 567px;
-}
-.img6 {
-    position: absolute;
-    top: 1156px;
-    left: 109px;
-}
-.img7 {
-    position: absolute;
-    top: 1165px;
-    left: 336px;
-}
-.img8 {
-    position: absolute;
-    top: 1164px;
-    left: 541px;
-} */
-
-/* .img1 {
-    position: relative;
-    /* top: 936px;
-    left: 235px; 
-}    */
 .clients-logo-row-width1{
     width: 300px;
-    margin: auto;
+    margin-left: 16%;
+    margin-right: auto;
 }
 .clients-logo-row-width2{
     width: 568px;
-    margin: auto;
 }
 .clients-logo-row-width3{
     width: 548px;
-    margin: auto;
+    margin-left: 1.5%;
+    margin-right: auto;
 }
 .clients-logo-row-width-mb{
     margin-bottom: 22px;
@@ -298,7 +257,7 @@ header{
     width: 40%;
 }
 .pricing {
-    margin-top: 240px;
+    margin-top: 180px;
     padding-top: 120px;
 }
 .pricing-info{
@@ -309,6 +268,7 @@ header{
 }
 .pricing-info-buttons{
     display: inline-block;
+    
 }
 .pricing-info-p-mb{
     margin-bottom: 50px !important;
@@ -317,8 +277,10 @@ header{
     padding: 17px 40px 17px 40px;
     font-size: 18px;
     font-weight: 300px;
+    border: none;
     color:#66667E;
     text-decoration: none;
+    background-color: #21212E;
     transition: color 0.5s ease;
 }
 .pricing-info-buttons-plan:hover{
@@ -331,7 +293,11 @@ header{
 .pricing-info-buttons{
     border: 2px solid #ffffff;
     border-radius: 7px;
-    
+    display: flex;
+    justify-content: center;
+    width: 290px;
+    margin: auto;
+    margin-bottom: 50px;
 }
 .flex-pricing-buttons{
     display: flex;
@@ -346,7 +312,7 @@ header{
 }
 .pricing-boxes-plan{
     text-align: center;
-    width: 360px;
+    width: 276px;
     padding: 50px 40px;
     background: #20202C 0% 0% no-repeat padding-box;
     box-shadow: 0px 0px 40px #0000008A;
@@ -354,9 +320,12 @@ header{
 }
 .pricing-boxes{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     /* в 2 объктов custom heigt */
     align-items: center;
+}
+.pricing-disabled{
+    display: none;
 }
 .pricing-title-h3{
     color: #ffffff;
@@ -604,14 +573,666 @@ li{
     left: 93%;
     z-index: 200;
 }
-/* .img-castom-page1{
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 170px;
+/* HDIPI */
+@media screen and (min-width: 1291px) and (max-width: 1549px){
+    .img-castom-page1{
+        width: 100%;
+        position: absolute;
+        top: 12%;
+        left: 0;
+        z-index: 5;
+    }
+    .img-castom-page2{
+        width: 100%;
+        position: absolute;
+        top: 683px;
+        left: 0;
+        z-index: -20;
+    } 
+    .img-castom-page3{
+        position: absolute;
+        width: 380px;
+        top: 1280px;
+        right: 0;
+        z-index: -20;
+    }
+    .img-castom-page4{
+        width: 100%;
+        position: absolute;
+        top: 3300px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page5{
+        width: 100%;
+        position: absolute;
+        top: 4750px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page6{
+        width: 100%;
+        position: absolute;
+        top: 5600px;
+        left: 0;
+        z-index: -20;
+    }
 }
-.img-castom-page2{
-    position: relative;
-    top: 0;
-    left: 0;
-} */
+/* media screen MDPI 1220 px to 1290 */
+@media screen and (min-width: 1220px) and (max-width: 1290px){
+    .img-castom-page1{
+        width: 100%;
+        position: absolute;
+        top: 12%;
+        left: 0;
+        z-index: 5;
+    }
+    .img-castom-page2{
+        width: 100%;
+        position: absolute;
+        top: 683px;
+        left: 0;
+        z-index: -20;
+    } 
+    .img-castom-page3{
+        position: absolute;
+        width: 380px;
+        top: 1280px;
+        right: 0;
+        z-index: -20;
+    }
+    .img-castom-page4{
+        width: 100%;
+        position: absolute;
+        top: 3406px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page5{
+        width: 100%;
+        position: absolute;
+        top: 4896px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page6{
+        width: 100%;
+        position: absolute;
+        top: 5726px;
+        left: 0;
+        z-index: -20;
+    }
+}
+
+@media screen and (min-width: 1550px) and (max-width: 1650px){
+    .img-castom-page1{
+        width: 100%;
+        position: absolute;
+        top: 12%;
+        left: 0;
+        z-index: 5;
+    }
+    .img-castom-page2{
+        width: 100%;
+        position: absolute;
+        top: 683px;
+        left: 0;
+        z-index: -20;
+    } 
+    .img-castom-page3{
+        position: absolute;
+        width: 380px;
+        top: 1280px;
+        right: 0;
+        z-index: -20;
+    }
+    .img-castom-page4{
+        width: 100%;
+        position: absolute;
+        top: 3406px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page5{
+        width: 100%;
+        position: absolute;
+        top: 4896px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page6{
+        width: 100%;
+        position: absolute;
+        top: 5726px;
+        left: 0;
+        z-index: -20;
+    }
+}
+@media screen and (min-width: 1651px) and (max-width: 1750px){
+    .img-castom-page1{
+        width: 100%;
+        position: absolute;
+        top: 12%;
+        left: 0;
+        z-index: 5;
+    }
+    .img-castom-page2{
+        width: 100%;
+        position: absolute;
+        top: 683px;
+        left: 0;
+        z-index: -20;
+    } 
+    .img-castom-page3{
+        position: absolute;
+        width: 380px;
+        top: 1355px;
+        right: 0;
+        z-index: -20;
+    }
+    .img-castom-page4{
+        width: 100%;
+        position: absolute;
+        top: 3406px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page5{
+        width: 100%;
+        position: absolute;
+        top: 4896px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page6{
+        width: 100%;
+        position: absolute;
+        top: 5749px;
+        left: 0;
+        z-index: -20;
+    }
+}
+@media screen and (min-width: 1751px) and (max-width: 1850px){
+    .img-castom-page1{
+        width: 100%;
+        position: absolute;
+        top: 12%;
+        left: 0;
+        z-index: 5;
+    }
+    .img-castom-page2{
+        width: 100%;
+        position: absolute;
+        top: 769px;
+        left: 0;
+        z-index: -20;
+    } 
+    .img-castom-page3{
+        position: absolute;
+        width: 380px;
+        top: 1355px;
+        right: 0;
+        z-index: -20;
+    }
+    .img-castom-page4{
+        width: 100%;
+        position: absolute;
+        top: 3406px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page5{
+        width: 100%;
+        position: absolute;
+        top: 5001px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page6{
+        width: 100%;
+        position: absolute;
+        top: 5824px;
+        left: 0;
+        z-index: -20;
+    }
+}
+@media screen and (min-width: 1851px) and (max-width: 1950px){
+    .img-castom-page1{
+        width: 100%;
+        position: absolute;
+        top: 12%;
+        left: 0;
+        z-index: 5;
+    }
+    .img-castom-page2{
+        width: 100%;
+        position: absolute;
+        top: 769px;
+        left: 0;
+        z-index: -20;
+    } 
+    .img-castom-page3{
+        position: absolute;
+        width: 380px;
+        top: 1420px;
+        right: 0;
+        z-index: -20;
+    }
+    .img-castom-page4{
+        width: 100%;
+        position: absolute;
+        top: 3406px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page5{
+        width: 100%;
+        position: absolute;
+        top: 5061px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page6{
+        width: 100%;
+        position: absolute;
+        top: 5892px;
+        left: 0;
+        z-index: -20;
+    }
+}
+@media screen and (min-width: 1951px) and (max-width: 2050px){
+    .img-castom-page1{
+        width: 100%;
+        position: absolute;
+        top: 12%;
+        left: 0;
+        z-index: 5;
+    }
+    .img-castom-page2{
+        width: 100%;
+        position: absolute;
+        top: 683px;
+        left: 0;
+        z-index: -20;
+    } 
+    .img-castom-page3{
+        position: absolute;
+        width: 380px;
+        top: 1419px;
+        right: 0;
+        z-index: -20;
+    }
+    .img-castom-page4{
+        width: 100%;
+        position: absolute;
+        top: 3501px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page5{
+        width: 100%;
+        position: absolute;
+        top: 5163px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page6{
+        width: 100%;
+        position: absolute;
+        top: 5922px;
+        left: 0;
+        z-index: -20;
+    }
+}
+@media screen and (min-width: 2051px) and (max-width: 2150px){
+    .img-castom-page1{
+        width: 100%;
+        position: absolute;
+        top: 12%;
+        left: 0;
+        z-index: 5;
+    }
+    .img-castom-page2{
+        width: 100%;
+        position: absolute;
+        top: 786px;
+        left: 0;
+        z-index: -20;
+    } 
+    .img-castom-page3{
+        position: absolute;
+        width: 380px;
+        top: 1502px;
+        right: 0;
+        z-index: -20;
+    }
+    .img-castom-page4{
+        width: 100%;
+        position: absolute;
+        top: 3560px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page5{
+        width: 100%;
+        position: absolute;
+        top: 5190px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page6{
+        width: 100%;
+        position: absolute;
+        top: 6017px;
+        left: 0;
+        z-index: -20;
+    }
+}
+@media screen and (min-width: 2151px) and (max-width: 2250px){
+    .img-castom-page1{
+        width: 100%;
+        position: absolute;
+        top: 12%;
+        left: 0;
+        z-index: 5;
+    }
+    .img-castom-page2{
+        width: 100%;
+        position: absolute;
+        top: 783px;
+        left: 0;
+        z-index: -20;
+    } 
+    .img-castom-page3{
+        position: absolute;
+        width: 380px;
+        top: 1546px;
+        right: 0;
+        z-index: -20;
+    }
+    .img-castom-page4{
+        width: 100%;
+        position: absolute;
+        top: 3603px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page5{
+        width: 100%;
+        position: absolute;
+        top: 5292px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page6{
+        width: 100%;
+        position: absolute;
+        top: 6040px;
+        left: 0;
+        z-index: -20;
+    }
+}
+@media screen and (min-width: 2251px) and (max-width: 2350px){
+    .img-castom-page1{
+        width: 100%;
+        position: absolute;
+        top: 12%;
+        left: 0;
+        z-index: 5;
+    }
+    .img-castom-page2{
+        width: 100%;
+        position: absolute;
+        top: 826px;
+        left: 0;
+        z-index: -20;
+    } 
+    .img-castom-page3{
+        position: absolute;
+        width: 380px;
+        top: 1543px;
+        right: 0;
+        z-index: -20;
+    }
+    .img-castom-page4{
+        width: 100%;
+        position: absolute;
+        top: 3617px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page5{
+        width: 100%;
+        position: absolute;
+        top: 5321px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page6{
+        width: 100%;
+        position: absolute;
+        top: 6101px;
+        left: 0;
+        z-index: -20;
+    }
+}
+@media screen and (min-width: 2351px) and (max-width: 2450px){
+    .img-castom-page1{
+        width: 100%;
+        position: absolute;
+        top: 12%;
+        left: 0;
+        z-index: 5;
+    }
+    .img-castom-page2{
+        width: 100%;
+        position: absolute;
+        top: 847px;
+        left: 0;
+        z-index: -20;
+    } 
+    .img-castom-page3{
+        position: absolute;
+        width: 380px;
+        top: 1602px;
+        right: 0;
+        z-index: -20;
+    }
+    .img-castom-page4{
+        width: 100%;
+        position: absolute;
+        top: 3612px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page5{
+        width: 100%;
+        position: absolute;
+        top: 5432px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page6{
+        width: 100%;
+        position: absolute;
+        top: 6101px;
+        left: 0;
+        z-index: -20;
+    }
+}
+@media screen and (min-width: 2451px) and (max-width: 2550px){
+    .img-castom-page1{
+        width: 100%;
+        position: absolute;
+        top: 12%;
+        left: 0;
+        z-index: 5;
+    }
+    .img-castom-page2{
+        width: 100%;
+        position: absolute;
+        top: 844px;
+        left: 0;
+        z-index: -20;
+    } 
+    .img-castom-page3{
+        position: absolute;
+        width: 380px;
+        top: 1628px;
+        right: 0;
+        z-index: -20;
+    }
+    .img-castom-page4{
+        width: 100%;
+        position: absolute;
+        top: 3710px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page5{
+        width: 100%;
+        position: absolute;
+        top: 5482px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page6{
+        width: 100%;
+        position: absolute;
+        top: 6218px;
+        left: 0;
+        z-index: -20;
+    }
+}
+@media screen and (min-width: 2551px) and (max-width: 2650px){
+    .img-castom-page1{
+        width: 100%;
+        position: absolute;
+        top: 12%;
+        left: 0;
+        z-index: 5;
+    }
+    .img-castom-page2{
+        width: 100%;
+        position: absolute;
+        top: 883px;
+        left: 0;
+        z-index: -20;
+    } 
+    .img-castom-page3{
+        position: absolute;
+        width: 380px;
+        top: 1697px;
+        right: 0;
+        z-index: -20;
+    }
+    .img-castom-page4{
+        width: 100%;
+        position: absolute;
+        top: 3801px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page5{
+        width: 100%;
+        position: absolute;
+        top: 5584px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page6{
+        width: 100%;
+        position: absolute;
+        top: 6274px;
+        left: 0;
+        z-index: -20;
+    }
+}
+@media screen and (min-width: 2651px) and (max-width: 2750px){
+    .img-castom-page1{
+        width: 100%;
+        position: absolute;
+        top: 12%;
+        left: 0;
+        z-index: 5;
+    }
+    .img-castom-page2{
+        width: 100%;
+        position: absolute;
+        top: 904px;
+        left: 0;
+        z-index: -20;
+    } 
+    .img-castom-page3{
+        position: absolute;
+        width: 380px;
+        top: 1734px;
+        right: 0;
+        z-index: -20;
+    }
+    .img-castom-page4{
+        width: 100%;
+        position: absolute;
+        top: 3786px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page5{
+        width: 100%;
+        position: absolute;
+        top: 5610px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page6{
+        width: 100%;
+        position: absolute;
+        top: 6270px;
+        left: 0;
+        z-index: -20;
+    }
+}
+@media screen and (min-width: 2751px) and (max-width: 2850px){
+    .img-castom-page1{
+        width: 100%;
+        position: absolute;
+        top: 12%;
+        left: 0;
+        z-index: 5;
+    }
+    .img-castom-page2{
+        width: 100%;
+        position: absolute;
+        top: 914px;
+        left: 0;
+        z-index: -20;
+    } 
+    .img-castom-page3{
+        position: absolute;
+        width: 380px;
+        top: 1757px;
+        right: 0;
+        z-index: -20;
+    }
+    .img-castom-page4{
+        width: 100%;
+        position: absolute;
+        top: 3909px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page5{
+        width: 100%;
+        position: absolute;
+        top: 5700px;
+        left: 0;
+        z-index: -20;
+    }
+    .img-castom-page6{
+        width: 100%;
+        position: absolute;
+        top: 6310px;
+        left: 0;
+        z-index: -20;
+    }
+}
