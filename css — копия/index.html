@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css Lesson</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/img-resize.css">
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="remodal.css">
+    <link rel="stylesheet" href="remodal-default-theme.css">
 </head>
 <body>
     <div class="sticky">
@@ -22,7 +25,7 @@
     </header>
     </div>
     <!-- -----------------content------------------------- -->
-    <div id="home" class="content">
+    <div id="home" class="content remodal-bg">
         <div class="slogan container">
             <div class="slogan-info">
                 <h1 class="slogan-info-h2 animated fadeInLeft">Showcase Your App!</h1>
@@ -135,7 +138,7 @@
                                 <span class="price">$10</span>
                                 <p class="paragraph-text pricing-paragraph-mb">Per Month</p>
                                 <p class="paragraph-text pricing-paragraph-mb-button">Lorem ipsum dolor sit amet, atque eaque eius esse et harum inventore nemo pariatur provident.</p>
-                                <a class="gradient-button buttom-padding" href="#">Get It Now!</a>
+                                <a class="gradient-button buttom-padding" href="#modal">Get It Now!</a>
                             </div>
                             <div class="pricing-boxes-plan custom-zindex">
                                     <div class="pricing-title-background pricing-paragraph-mb">
@@ -146,7 +149,7 @@
                                     <p class="paragraph-text pricing-paragraph-mb">Per Month</p>
                                     <p class="paragraph-text pricing-paragraph-mb-button">Lorem ipsum dolor sit amet, atque eaque eius esse et harum inventore nemo pariatur provident.
                                         Lorem ipsum dolor sit amet, atque eaque eius esse et harum inventore nemo pariatur provident.</p>
-                                    <a class="gradient-button button-padding" href="#">Get It Now!</a>
+                                    <a class="gradient-button button-padding" href="#modal">Get It Now!</a>
                             </div>
                             <div class="pricing-boxes-plan custom-height">
                                     <div class="pricing-title-background pricing-paragraph-mb">
@@ -156,7 +159,7 @@
                                     <span class="price">$15</span>
                                     <p class="paragraph-text pricing-paragraph-mb">Per Month</p>
                                     <p class="paragraph-text pricing-paragraph-mb-button">Lorem ipsum dolor sit amet, atque eaque eius esse et harum inventore nemo pariatur provident.</p>
-                                    <a class="gradient-button button-padding" href="#">Get It Now!</a>
+                                    <a class="gradient-button button-padding" href="#modal">Get It Now!</a>
                         </div>
                     </div>
                     <div id="yearly" class="pricing-box pricing-disabled">
@@ -169,7 +172,7 @@
                                 <span class="price">$100</span>
                                 <p class="paragraph-text pricing-paragraph-mb">Per Year</p>
                                 <p class="paragraph-text pricing-paragraph-mb-button">Lorem ipsum dolor sit amet, atque eaque eius esse et harum inventore nemo pariatur provident.</p>
-                                <a class="gradient-button buttom-padding" href="#">Get It Now!</a>
+                                <a class="gradient-button buttom-padding" href="#modal">Get It Now!</a>
                             </div>
                             <div class="pricing-boxes-plan custom-zindex">
                                     <div class="pricing-title-background pricing-paragraph-mb">
@@ -180,7 +183,7 @@
                                     <p class="paragraph-text pricing-paragraph-mb">Per Year</p>
                                     <p class="paragraph-text pricing-paragraph-mb-button">Lorem ipsum dolor sit amet, atque eaque eius esse et harum inventore nemo pariatur provident.
                                         Lorem ipsum dolor sit amet, atque eaque eius esse et harum inventore nemo pariatur provident.</p>
-                                    <a class="gradient-button button-padding" href="#">Get It Now!</a>
+                                    <a class="gradient-button button-padding" href="#modal">Get It Now!</a>
                             </div>
                             <div class="pricing-boxes-plan custom-height">
                                     <div class="pricing-title-background pricing-paragraph-mb">
@@ -190,51 +193,81 @@
                                     <span class="price">$150</span>
                                     <p class="paragraph-text pricing-paragraph-mb">Per Year</p>
                                     <p class="paragraph-text pricing-paragraph-mb-button">Lorem ipsum dolor sit amet, atque eaque eius esse et harum inventore nemo pariatur provident.</p>
-                                    <a class="gradient-button button-padding" href="#">Get It Now!</a>
+                                    <a class="gradient-button button-padding" href="#modal">Get It Now!</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="questions container">
-                <div class="frequently-questions-info">
-                    <h2 class="clients-info-h2 clients-info-h2-mt clients-info-h2-mb">Frequently Ask Questions</h2>
-                    <p class="clients-info-p slogan-info-p pricing-info-p-mb questions-mt">Our plans have everything you need to take your app to the next level. No hidden fees.</p>
-                </div>
-                <div class="questions-boxes">
-                    <div class="questions-column">
-                        <div class="question-line">
-                            <p class="question-text">Sed ut perspiciatis unde iste natus error sit?</p>
-                            <!-- <img class="questions-img" src="img/questions-img-simple.svg" alt=""> -->
-                            <img class="questions-img" src="img/questions-img-hard.svg" alt="">
-                        <!-- powerfull-features -->
+    </div>
+    <div class="questions container">
+            <div class="frequently-questions-info">
+                <h2 class="clients-info-h2 clients-info-h2-mt clients-info-h2-mb">Frequently Ask Questions</h2>
+                <p class="clients-info-p slogan-info-p pricing-info-p-mb questions-mt">Our plans have everything you need to take your app to the next level. No hidden fees.</p>
+            </div>
+            <div class="questions-boxes">
+                <div class="questions-column">
+                    <div class="question-line">
+                            <div class="question-line-button">
+                                <button class="primary-question-line-button">Sed ut perspiciatis unde iste natus error sit?</button>
+                                <button class="img-question-line-button accordion">
+                                    <img class="questions-img" src="img/questions-img-hard.svg" alt="">
+                                    <img class="questions-img accordion-img-display-none" src="img/minus.svg" alt="">
+                                </button>   
+                            </div>
+                            <div id="test-acc" class="paragraph-text accordion-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, atque eaque eius esse et harum inventore ipsam  nam necessitatibus nemo pariatur dipisci velit, sed quia non numquam eius modi tempora provident.</div>
                         </div>
                         <div class="question-line">
-                            <p class="question-text">Sed ut perspiciatis unde iste natus error sit?</p>
-                            <!-- <img class="questions-img" src="img/questions-img-simple.svg" alt=""> -->
-                            <img class="questions-img" src="img/questions-img-hard.svg" alt="">
+                            <div class="question-line-button">
+                                <button class="primary-question-line-button accordion">Sed ut perspiciatis unde iste natus error sit?</button>
+                                <button class="img-question-line-button">
+                                    <img class="questions-img accordion" src="img/questions-img-hard.svg" alt="">
+                                    <img class="questions-img accordion-img-display-none" src="img/minus.svg" alt="">
+                                </button>   
+                            </div>
+                            <p class="paragraph-text accordion-text-mt accordion-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, atque eaque eius esse et harum inventore ipsam  nam necessitatibus nemo pariatur dipisci velit, sed quia non numquam eius modi tempora provident.</p>
                         </div>
                         <div class="question-line">
-                            <p class="question-text">Sed ut perspiciatis unde iste natus error sit?</p>
-                            <!-- <img class="questions-img" src="img/questions-img-simple.svg" alt=""> -->
-                            <img class="questions-img" src="img/questions-img-hard.svg" alt="">
+                            <div class="question-line-button">
+                                <button class="primary-question-line-button accordion">Sed ut perspiciatis unde iste natus error sit?</button>
+                                <button class="img-question-line-button accordion">
+                                    <img class="questions-img" src="img/questions-img-hard.svg" alt="">
+                                    <img class="questions-img accordion-img-display-none" src="img/minus.svg" alt="">
+                                </button>   
+                            </div>
+                            <p class="paragraph-text accordion-text-mt accordion-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, atque eaque eius esse et harum inventore ipsam  nam necessitatibus nemo pariatur dipisci velit, sed quia non numquam eius modi tempora provident.</p>
                         </div>
                     </div>
                     <div class="questions-column">
                         <div class="question-line">
-                            <p class="question-text">Sed ut perspiciatis unde iste natus error sit?</p>
-                            <!-- <img class="questions-img" src="img/questions-img-simple.svg" alt=""> -->
-                            <img class="questions-img" src="img/questions-img-hard.svg" alt="">
+                            <div class="question-line-button">
+                                <button class="primary-question-line-button accordion">Sed ut perspiciatis unde iste natus error sit?</button>
+                                <button class="img-question-line-button accordion">
+                                    <img class="questions-img" src="img/questions-img-hard.svg" alt="">
+                                    <img class="questions-img accordion-img-display-none" src="img/minus.svg" alt="">
+                                </button>   
+                            </div>
+                            <p class="paragraph-text accordion-text-mt accordion-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, atque eaque eius esse et harum inventore ipsam  nam necessitatibus nemo pariatur dipisci velit, sed quia non numquam eius modi tempora provident.</p>
                         </div>
                         <div class="question-line">
-                            <p class="question-text">Sed ut perspiciatis unde iste natus error sit?</p>
-                            <!-- <img class="questions-img" src="img/questions-img-simple.svg" alt=""> -->
-                            <img class="questions-img" src="img/questions-img-hard.svg" alt="">
+                            <div class="question-line-button">
+                                <button class="primary-question-line-button accordion">Sed ut perspiciatis unde iste natus error sit?</button>
+                                <button class="img-question-line-button accordion">
+                                    <img class="questions-img" src="img/questions-img-hard.svg" alt="">
+                                    <img class="questions-img accordion-img-display-none" src="img/minus.svg" alt="">
+                                </button>   
+                            </div>
+                            <p class="paragraph-text accordion-text-mt accordion-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, atque eaque eius esse et harum inventore ipsam  nam necessitatibus nemo pariatur dipisci velit, sed quia non numquam eius modi tempora provident.</p>
                         </div>
                         <div class="question-line">
-                            <p class="question-text">Sed ut perspiciatis unde iste natus error sit?</p>
-                            <!-- <img class="questions-img" src="img/questions-img-simple.svg" alt=""> -->
-                            <img class="questions-img" src="img/questions-img-hard.svg" alt="">
+                            <div class="question-line-button">
+                                <button class="primary-question-line-button accordion">Sed ut perspiciatis unde iste natus error sit?</button>
+                                <button class="img-question-line-button accordion">
+                                    <img class="questions-img" src="img/questions-img-hard.svg" alt="">
+                                    <img class="questions-img accordion-img-display-none" src="img/minus.svg" alt="">
+                                </button>   
+                            </div>
+                            <p class="paragraph-text accordion-text-mt accordion-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, atque eaque eius esse et harum inventore ipsam  nam necessitatibus nemo pariatur dipisci velit, sed quia non numquam eius modi tempora provident.</p>
                         </div>
                     </div>
                 </div>
@@ -287,6 +320,36 @@
                 </a>
             </li>
         </ul>
+        <div class="remodal" data-remodal-id="modal">
+            <div class="frequently-questions-info">
+                <button data-remodal-action="close" class="remodal-close"></button>
+                <h2 class="clients-info-h2 clients-info-h2-mt clients-info-h2-mb">Contact Us</h2>
+                <p class="clients-info-p slogan-info-p pricing-info-p-mb questions-mt">Our plans have everything you need to take your app to the next level. No hidden fees.</p>
+            </div>
+            <form action="">
+                <div class="form-line">
+                    <input class="input-text" type="text" name="name" placeholder="First Name" required>
+                    <input class="input-text" type="text" name="name" placeholder="Last Name">
+                </div>
+                <div class="form-line">
+                    <input class="input-text" type="email" placeholder="Your email" required>
+                    <input class="input-text" type="tel" placeholder="Your numer">
+                </div>
+                <textarea name="message" id="message" cols="80" placeholder="Your message here..."></textarea>
+                <div class="checkbox-button">
+                     <div class="privacy">
+                     <label>
+                          <input type="checkbox" required>
+                          <span class="paragraph-text" style="margin-left: 20px;">I agree with <a href="#" class="conditions paragraph-text">terms and conditions.</a> </span>
+                        </label>
+                    </div>
+                    <div class="button-submit">
+                    <button class="submit-button">Send</button>
+                    </div>
+                </div>
+                
+            </form>
+          </div>
         <img class="img-castom-page1" src="img/t-i-1.svg" alt=""> 
         <img class="img-castom-page2" src="img/t-i-2.svg" alt="">
         <img class="img-castom-page3" src="img/3.svg" alt="">
@@ -334,6 +397,7 @@
     </script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="jquery.malihu.PageScroll2id.min.js"></script>
+    <script src="js/remodal.min.js"></script>
     <script>
         (function($){
             $(window).load(function(){
@@ -368,6 +432,34 @@
             var buttonMonthly = documen.getElementById('monthly-button');
             buttonYearly.classList.remove('active-pricing-button');
             buttonMonthly.classList.add('active-pricing-button');
+        }
+    </script>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        for(i = 0; i < acc.length; i++){
+            acc[i].onclick = function(){
+                this.classList.toggle("");
+                var panel = this.nextElementSibling;
+                if(panel.style.maxHeight){
+                    panel.style.maxHeight = null;
+                }
+                else{
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+                if(panel.style.paddingBottom){
+                    panel.style.paddingBottom = null;
+                }
+                else{
+                    panel.style.paddingBottom = 20 + "px";
+                }
+                if(panel.style.marginTop){
+                    panel.style.marginTop = null;
+                }
+                else{
+                    panel.style.marginTop = 20 + "px";
+                }
+            }
         }
     </script>
 </body>
