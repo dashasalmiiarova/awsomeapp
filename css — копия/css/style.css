@@ -375,7 +375,6 @@ button:active, button:focus {
     /* width: 100%; */
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: auto;
     
 }
@@ -383,11 +382,19 @@ button:active, button:focus {
     text-align: center;
     margin-bottom: 30px;
 }
+.privacy{
+    text-align: end;
+}
 .questions{
     margin-top: 400px; /* отступ от попереднього */
 }
 .questions-img{
     width: 30px;
+    height: 80px;
+    padding: 0 28px 0 28px;
+    background-color: #39394d42;
+    border-radius: 7px;
+    transition: all 0.5s ease-in-out;
 }
 .question-line{
     background: #20202C 0% 0% no-repeat padding-box;
@@ -421,6 +428,7 @@ button:active, button:focus {
     padding-bottom: 0;
     max-height: 0;
     overflow: hidden;
+    transition: all 0.5s ease-in-out;
 }
 .accordion-img-display-none{
     display: none;
@@ -472,10 +480,10 @@ textarea:focus{
     border:2px solid #822EFF;
 }
 .button-submit{
-    float: right;
+    text-align: end;
 }
 .checkbox-button{
-    float: right;
+   
 }
 .input-text{
     background-color: #39394d42;
@@ -530,7 +538,7 @@ textarea:focus{
 }
 .cta{
     background-color: #39394d42;
-    margin-top: 400px;
+    margin-top: 230px;
 }
 .cta-info{
     display: flex;
@@ -610,4 +618,39 @@ li{
     top: 80%;
     left: 93%;
     z-index: 200;
+}
+input{
+    outline: 0;
+}
+textarea{
+    outline: 0;
+}
+.feedback{
+    color: #3d9b51;
+    margin-top: 80px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 7px;
+    border: 2px solid #3d9b51;
+}
+.feedback-disabled{
+    display: none;
+}
+.privacy-heading{
+    margin-bottom: 20px;
+    color: white;
+}
+.privacy-long-text{
+    text-align: left !important;
+}   
+.privacy-paragph-text-mb{
+    margin-bottom: 50px;
+}
+.privacy-li{
+    text-align: left;
+    list-style: inside;
+}
+.privacy-ul{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
