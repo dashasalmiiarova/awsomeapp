@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="remodal.css">
     <link rel="stylesheet" href="remodal-default-theme.css">
+    <link rel="stylesheet" href="slick/slick.css"/>
+    <!-- // Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" href="slick/slick-theme.css"/>
+    
 </head>
 <body>
     <div class="sticky">
@@ -22,7 +26,20 @@
             <li><a href="#pricing">Pricing</a> </li>
             <li><a class="header-button" href="#contact">Contact</a> </li>
         </ul>
-    </header>
+        </header>
+        <div class="mobile-menu">
+            <div class="top-menu">
+               <a href="#"><img class="mobile-logo" src="img/Logo.svg" alt="" ></a> 
+               <div class="toggle-button" id="toggle" href=""><img class="mobile-burger-img"  src="img/menu.svg" alt=""></div>
+            </div>
+            <ul id="nav-menu" class="menu-mobile-block">
+                <li><a href="#home">Home</a> </li>
+                <li><a href="#services">About</a> </li>
+                <li><a href="#features">Product</a> </li>
+                <li><a href="#pricing">Pricing</a> </li>
+                <li><a class="header-button" href="#contact">Contact</a> </li>
+            </ul>
+        </div>
     </div>
     <!-- -----------------content------------------------- -->
     <div id="home" class="content remodal-bg">
@@ -38,8 +55,7 @@
             <img class="slogan-img animated fadeIn slow" src="img/iphone-png@2x.png" alt="">
         </div>
         <div class="clients_contant container">
-           
-            <div class="clients_logo">
+            <div class="clients_logo wow fadeInLeft">
                 <div class="clients-logo-row-width1 clients-logo-row-width-mb">
                     <div class="clients-logo-row">
                         <img width="50px" src="img/aws.svg" alt="" class="clients-logo-img img1">
@@ -61,19 +77,71 @@
                     </div>
                 </div>
             </div>
-            <div class="clients_info">
+            <div class="clients_info wow fadeInRight">
                 <h2 class="clients-info-h2">We've partnered with awesome folks</h2>
                 <p class="clients-info-p paragraph-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, atque eaque eius esse et harum inventore ipsam  nam necessitatibus nemo pariatur provident. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, atque eaque eius esse et harum inventore ipsam  nam necessitatibus nemo pariatur provident.</p>
             </div>
+            <div class="clients-mobile-slider">
+                <div class="img-slider-div">
+                    <img src="img/aws.svg" alt="" class="clients-logo-img img1">
+                </div>
+                <div class="img-slider-div">
+                    <img src="img/puma.svg" alt="" class="clients-logo-img img2">
+                </div>
+                <div class="img-slider-div">
+                    <img src="img/Microsoft.svg" alt="" class="clients-logo-img img3">
+                </div>
+                <div class="img-slider-div">
+                    <img src="img/inkyy.svg" alt="" class="clients-logo-img img4">
+                </div>
+                <div class="img-slider-div">
+                    <img src="img/nike.svg" alt="" class="clients-logo-img img5">
+                </div>
+                <div class="img-slider-div">
+                    <img  src="img/disney.svg" alt="" class="clients-logo-img img6">
+                </div>
+                <div class="img-slider-div">
+                    <img src="img/converse.svg" alt="" class="clients-logo-img img7">
+                </div>
+                <div class="img-slider-div">
+                    <img src="img/apple-itunes-seeklogo.com.svg" alt="" class="clients-logo-img img8">
+                </div>
+            </div>
+            <div class="clients-tablet-slider">
+                <div class="img-slider-div-t">
+                    <img src="img/aws.svg" alt="" class="clients-logo-img img1">
+                </div>
+                <div class="img-slider-div-t">
+                    <img src="img/puma.svg" alt="" class="clients-logo-img img2">
+                </div>
+                <div class="img-slider-div-t">
+                    <img src="img/Microsoft.svg" alt="" class="clients-logo-img img3">
+                </div>
+                <div class="img-slider-div-t">
+                    <img src="img/inkyy.svg" alt="" class="clients-logo-img img4">
+                </div>
+                <div class="img-slider-div-t">
+                    <img src="img/nike.svg" alt="" class="clients-logo-img img5">
+                </div>
+                <div class="img-slider-div-t">
+                    <img  src="img/disney.svg" alt="" class="clients-logo-img img6">
+                </div>
+                <div class="img-slider-div-t">
+                    <img src="img/converse.svg" alt="" class="clients-logo-img img7">
+                </div>
+                <div class="img-slider-div-t">
+                    <img src="img/apple-itunes-seeklogo.com.svg" alt="" class="clients-logo-img img8">
+                </div>
+            </div>
         </div>
         <div id="services" class="services container">
-            <div class="services-info">
+            <div class="services-info wow fadeInLeft">
                 <span class="green-subtext ">Powerfull Features</span>
                 <h2 class="clients-info-h2 clients-info-h2-mt">We've partnered with awesome folks</h2>
                 <p class="clients-info-p slogan-info-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, atque eaque eius esse et harum inventore ipsam  nam necessitatibus nemo pariatur provident. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, atque eaque eius esse et harum inventore ipsam  nam necessitatibus nemo pariatur provident.</p>
                 <a class="gradient-button" href="#">All Features</a>
             </div>
-            <div class="services-blocks">
+            <div class="services-blocks wow fadeInRight">
                 <div class="services-blocks-colum services-blocks-colum-ar">
                     <div class="servieces-block-item">
                         <div class="services-block-item-icon">
@@ -106,8 +174,8 @@
                 </div>
         </div>   
         <div id="features" class="features container">
-                <img src="img/features.svg" alt="" class="features-img">
-                <div class="features-info">
+                <img src="img/features.svg" alt="" class="features-img wow fadeInLeft">
+                <div class="features-info wow fadeInRight">
                     <span class="green-subtext ">Powerfull Features</span>
                 <h2 class="clients-info-h2 clients-info-h2-mt">Powered with multiple 
                     design blocks</h2>
@@ -115,7 +183,7 @@
                 <a class="gradient-button" href="#">All Features</a>
                 </div>
         </div>
-        <div id="pricing" class="pricing container">
+        <div id="pricing" class="pricing container wow fadeInUp">
                 <div class="pricing-info">
                     <h2 class="clients-info-h2 clients-info-h2-mt">Transparent pricing</h2>
                     <p class="clients-info-p slogan-info-p pricing-info-p-mb">Our plans have everything you need to take your app to the next level. No hidden fees.</p>   
@@ -200,13 +268,13 @@
             </div>
         </div>
     </div>
-    <div class="questions container">
+    <div class="questions container wow fadeInUp">
             <div class="frequently-questions-info">
                 <h2 class="clients-info-h2 clients-info-h2-mt clients-info-h2-mb">Frequently Ask Questions</h2>
                 <p class="clients-info-p slogan-info-p pricing-info-p-mb questions-mt">Our plans have everything you need to take your app to the next level. No hidden fees.</p>
             </div>
             <div class="questions-boxes">
-                <div class="questions-column">
+                <div class="questions-column wow fadeInLeft">
                     <div class="question-line">
                             <div class="question-line-button">
                                 <button class="primary-question-line-button">Sed ut perspiciatis unde iste natus error sit?</button>
@@ -235,7 +303,7 @@
                             <div class="paragraph-text accordion-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, atque eaque eius esse et harum inventore ipsam  nam necessitatibus nemo pariatur dipisci velit, sed quia non numquam eius modi tempora provident.</div>
                         </div>
                     </div>
-                    <div class="questions-column">
+                    <div class="questions-column wow fadeInRight">
                         <div class="question-line">
                             <div class="question-line-button">
                                 <button class="primary-question-line-button accordion">Sed ut perspiciatis unde iste natus error sit?</button>
@@ -263,7 +331,7 @@
                     </div>
                 </div>
     </div>
-    <div id="contact" class="contact container">
+    <div id="contact" class="contact container wow fadeInUp">
                 <div class="frequently-questions-info">
                     <h2 class="clients-info-h2 clients-info-h2-mt clients-info-h2-mb">Contact Us</h2>
                     <p class="clients-info-p slogan-info-p pricing-info-p-mb questions-mt">Our plans have everything you need to take your app to the next level. No hidden fees.</p>
@@ -280,7 +348,7 @@
                         <input class="input-text" type="email" name="email" placeholder="Your email" required>
                         <input class="input-text" type="tel" name="number" placeholder="Your numer">
                     </div>
-                    <textarea name="message" cols="80" placeholder="Your message here..."></textarea>
+                    <textarea name="message" placeholder="Your message here..."></textarea>
                     <div class="checkbox-button">
                          <div class="privacy">
                          <label>
@@ -295,7 +363,6 @@
                     <div id="feedback" class="feedback feedback-disabled">
                         Your was send! Thank You for Your Message!
                     </div>
-                    <!-- animated fadeInDown -->
                 </form>
             </div>
             <div class="remodal" data-remodal-id="privacy-modal">
@@ -329,7 +396,7 @@
                 <img class="privacy-logo" src="img/Logo.svg" alt="">
               </div>
         </div>
-        <div class="cta">
+        <div class="cta wow fadeInUp">
                 <div class="cta-info container">
                     <div class="cta-info-text">
                         <h2 class="clients-info-h2 clients-info-h2-mt clients-info-h2-mb">Start your 15 days free trial now!</h2>
@@ -340,11 +407,9 @@
                     </div>
                 </div>
         </div>
-        <ul id="arrow-up">
+        <ul id="arrow-up" class="arrowUp">
             <li>
-                <a href="#home" class="sticky-arrow-up">
-                <img src="img/up-arrow.svg" alt="" class="sticky-arrow-up-img">
-                </a>
+                <a href="#home" class="sticky-arrow-up"><img src="img/up-arrow.svg" alt="" class="sticky-arrow-up-img"></a>
             </li>
         </ul>
         <div class="remodal" data-remodal-id="modal">
@@ -353,7 +418,10 @@
                 <h2 class="clients-info-h2 clients-info-h2-mt clients-info-h2-mb">Contact Us</h2>
                 <p class="clients-info-p slogan-info-p pricing-info-p-mb questions-mt">Our plans have everything you need to take your app to the next level. No hidden fees.</p>
             </div>
-            <form action="">
+            <form>
+                <input type="hidden" name="project_name" value="Awesome App">
+                <input type="hidden" name="admin_email" value="sender@timdesign.top">
+                <input type="hidden" name="form_subject" value="Contact Form">
                 <div class="form-line">
                     <input class="input-text" type="text" name="name" placeholder="First Name" required>
                     <input class="input-text" type="text" name="name" placeholder="Last Name">
@@ -367,14 +435,16 @@
                      <div class="privacy">
                      <label>
                           <input type="checkbox" required>
-                          <span class="paragraph-text" style="margin-left: 20px;">I agree with <a href="#" class="conditions paragraph-text">terms and conditions.</a> </span>
+                          <span class="paragraph-text" style="margin-left: 20px;">I agree with <a href="#privacy-modal" class="conditions paragraph-text">terms and conditions.</a> </span>
                         </label>
                     </div>
                     <div class="button-submit">
                     <button class="submit-button">Send</button>
                     </div>
                 </div>
-                
+                <div id="feedback" class="feedback feedback-disabled">
+                    Your was send! Thank You for Your Message!
+                </div>
             </form>
           </div>
         <img class="img-castom-page1" src="img/t-i-1.svg" alt=""> 
@@ -388,7 +458,7 @@
     <footer class="container">
         <div class="footer-info">
             <p class="paragraph-text paragraph-text-mb">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, atque eaque eius esse et harum inventore ipsam  nam necessitatibus nemo pariatur provident.</p>
-            <p class="paragraph-text">© 2019 Logo Here. All Rights Reserved</p>
+            <p class="paragraph-text">© 2020 Logo Here. All Rights Reserved</p>
         </div>
         <div class="footer-stuff">
                 <div class="footer-links">
@@ -417,7 +487,6 @@
         
     </footer>
     <!-- JQuery -->
-    
     <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -426,7 +495,34 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="jquery.malihu.PageScroll2id.min.js"></script>
     <script src="js/remodal.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script src="script.js"></script>
+    <script>
+        var burgerButton = document.getElementsByClassName("toggle-button");
+        var p;
+        for(p = 0; p < burgerButton.length; p++){
+            burgerButton[p].onclick = function(){
+                console.log('button clicked');
+                var menuha = document.getElementById('nav-menu');
+                if(menuha.style.maxHeight){
+                    menuha.style.maxHeight = null;
+                }
+                else{
+                    menuha.style.maxHeight = menuha.scrollHeight + "px";
+                }
+                if(menuha.style.marginTop){
+                    menuha.style.marginTop = null;
+                }
+                else{
+                    menuha.style.marginTop = 30 + "px";
+                }
+            }
+        }
+    </script>
     <script>
         (function($){
             $(window).load(function(){
@@ -504,5 +600,30 @@
             }
         }
     </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.clients-mobile-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows: false,
+          });
+        });
+      </script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+           $('.clients-tablet-slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows: false,
+            // centerMode: true,
+            centerPadding: 40,
+            // adaptiveHeight: true
+            });
+        })
+      </script>
 </body>
 </html>

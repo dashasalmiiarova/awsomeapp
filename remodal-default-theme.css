@@ -125,7 +125,7 @@
   font-size: 25px;
   line-height: 35px;
 
-  position: absolute;
+  /* position: absolute; */
   top: 8px;
   left: 832px;
 
@@ -307,6 +307,7 @@
 
 @media only screen and (min-width: 641px) {
   .remodal {
+    /* max-width: 875px; */
     max-width: 875px;
     background-color:#21202e;
     border-radius: 12px;
@@ -314,7 +315,16 @@
     border: 2px solid #4e4b60;
   }
 }
-
+@media only screen and (min-width: 315px) and (max-width: 640px) {
+  .remodal-wrapper{
+    /* overflow: hidden; */
+    width: 100% !important;
+    padding: 0;
+  }
+  .remodal{
+    background-color:#21202e;
+  }
+}
 /* IE8
    ========================================================================== */
 
